@@ -1,0 +1,20 @@
+ul.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul.checklist li.checked {
+    color: #0074d9;
+}
+
+ul.checklist img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
