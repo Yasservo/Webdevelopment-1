@@ -1,0 +1,80 @@
+body {
+    margin: auto;
+    font-size: 1.2em;
+    width:95%;
+    font-family: Verdana, Helvetica, Arial, serif;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+body > article {
+    width: 30%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align:center;
+    border: 2px solid #007e7e;
+    background-image: url('../images/cocktail.gif');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+body > article h1 {
+    color: #ff6600;
+}
+
+body > article h2 {
+    color: #993300;
+}
+body > article a:hover {
+    color: saddlebrown;
+}
+section {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+
+h2 {
+    color: #007e7e;
+    font-size: 130%;
+}
+
+
+footer {
+    font-size: 0.6em;
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    border: 1px dashed #ffffff;
+    position: relative;
+}
+
+#guarantee .background-container {
+    background-color: #a7cece;
+    background-image: url('../images/background.gif');
+    background-size: auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#guarantee p {
+    margin-left:60px;
+}
