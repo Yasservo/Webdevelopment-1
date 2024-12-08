@@ -1,0 +1,34 @@
+/*.colorGray{
+    background-color: #7D7D7D;
+
+}
+
+.colorWhite{
+    background-color: lightgray;
+
+
+}
+
+div[class*='col'] /* alle difs dat beginnen met een class attribuut col moeten onderstaande waarden krijgen*/
+/*{
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}
+
+*/
+
+
+.white {
+    background-color: #7D7D7D;
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}
+
+.gray{
+    background-color: lightgray;
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}
