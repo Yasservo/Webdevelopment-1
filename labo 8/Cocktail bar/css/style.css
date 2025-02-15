@@ -13,8 +13,8 @@ header {
 
 body > article {
     width: 30%;
-    float: right;
-    padding: 10px;
+    float: right ;
+    padding: 20px;
     box-sizing: border-box;
     text-align:center;
     border: 2px solid #007e7e;
@@ -58,10 +58,10 @@ footer {
 }
 
 #guarantee {
-    margin: 30px;
+    margin: 30px 30px 50px 30px;
     padding: 20px;
     color: #444444;
-    border: 1px dashed #ffffff;
+    border: 1px dashed #b22d2d;
     position: relative;
 }
 
@@ -72,9 +72,9 @@ footer {
     background-position: top left;
     background-repeat: no-repeat;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 #guarantee p {
     margin-left:60px;
 }
+

@@ -77,6 +77,8 @@ body {
 .gallery {
     background-color: #999999;
     float: left;
+    box-sizing: border-box;
+    margin-right: 10px;
 }
 
 .gallery div {
