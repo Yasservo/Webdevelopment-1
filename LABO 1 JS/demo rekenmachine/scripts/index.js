@@ -26,6 +26,15 @@ const optellen = () => {
 
 const aftrekken = () => {
 	// analoog
+	let txtOutput = document.getElementById("txtOutput");
+	let txtLinks = document.getElementById("txtLinks");
+	let txtRechts = document.getElementById("txtRechts")
+
+	let g1 = parseInt(txtRechts.value, 10)
+	let g2 = parseInt(txtLinks.value, 10)
+	let resultaat = g1+g2;
+
+	let resultaat
 }
 
 const vermenigvuldigen = () => {
