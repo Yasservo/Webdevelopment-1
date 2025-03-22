@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>De en het opdracht</title>
+</head>
+<body>
+
+
+<p>Staat van de kip:</p>
+<select id="kies" onchange="toonLetterInvoer()">
+    <option value="">-- KIES --</option>
+    <option value="Zonder een ei">Zonder een ei</option>
+</select>
+
+<div id="letterLezer">
+    <h2>Geef een letter:</h2>
+    <input type="text" id="letterInput" maxlength="1" oninput="telLetter()">
+    <p id="output"></p>
+</div>
